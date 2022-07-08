@@ -27,6 +27,18 @@
 	<a href= "/dojos">Dojos</a>
 	<!-- <a href= "/counter">Site Visit Counter</a> -->
 	
+	<h2>Bookety-Books</h2>
+	
+	<h3>Book title: <c:out value="${book.title}"></c:out></h3>
+	<h4>Description: <c:out value="${book.description}"></c:out></h4>
+	<h4>Language: <c:out value="${book.language}"></c:out></h4>
+	<h4>Page Count: <c:out value="${book.numberOfPages}"></c:out></h4> 
+	
+	
+	
+	<%-- <h3>bookListy: <c:out value="${bookListy}"></c:out></h3> --%>
+	
+	
 	<h2>Ninja Gold - We've been here before!</h2>
 	
 	<h3>Geld Total: <c:out value="${currentCountGeld}"></c:out></h3>
